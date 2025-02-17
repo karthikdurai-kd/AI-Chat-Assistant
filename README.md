@@ -1,13 +1,17 @@
+````markdown
 # AI Chat Assistant
 
+![NestJS Logo](https://nestjs.com/img/logo_text.svg)  
 Full Stack Generative AI application using **NestJS** for the backend, **NextJS** for the frontend, and **OpenAI's GPT-4 API** for natural language processing.
+
+![NextJS Logo](https://nextjs.org/static/favicon/favicon.ico)
 
 ## Tech Stack
 
-- **Frontend**: NextJS
-- **Styling**: Tailwind CSS, DaisyUI
-- **Backend**: NestJS, TypeScript
-- **API Integration**: OpenAI GPT-4 API
+- **Frontend**: ![NextJS Logo](https://nextjs.org/static/favicon/favicon.ico) NextJS
+- **Styling**: ![Tailwind CSS Logo](https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css) Tailwind CSS, ![DaisyUI Logo](https://raw.githubusercontent.com/saadeghi/daisyui/master/static/logo.png) DaisyUI
+- **Backend**: ![NestJS Logo](https://nestjs.com/img/logo_text.svg) NestJS, TypeScript
+- **API Integration**: ![OpenAI Logo](https://openai.com/favicon.ico) OpenAI GPT-4 API
 
 ## Setup
 
@@ -19,6 +23,7 @@ Full Stack Generative AI application using **NestJS** for the backend, **NextJS*
    git clone https://github.com/karthikdurai-kd/AI-Chat-Assistant.git
    cd AI-Chat-Assistant
    ```
+````
 
 2. Navigate to the `ai-chat-assistant-backend` directory and install dependencies:
 
@@ -36,6 +41,7 @@ Full Stack Generative AI application using **NestJS** for the backend, **NextJS*
      ```
 
 4. Start the backend server:
+
    ```bash
    npm run start:dev
    ```
@@ -58,6 +64,7 @@ Full Stack Generative AI application using **NestJS** for the backend, **NextJS*
 3. Configure Tailwind CSS and DaisyUI:
 
    - Ensure your `tailwind.config.js` is set up to use DaisyUI.
+
      ```javascript
      module.exports = {
        content: [
@@ -72,6 +79,7 @@ Full Stack Generative AI application using **NestJS** for the backend, **NextJS*
      ```
 
 4. Start the frontend server:
+
    ```bash
    npm run dev
    ```
@@ -86,3 +94,7 @@ Full Stack Generative AI application using **NestJS** for the backend, **NextJS*
 1. Open `http://localhost:3001` in your browser to access the frontend.
 2. Start chatting with the AI chat Assistant Application by typing your questions in the input box.
 3. The chatbot will send requests to the backend, which will interact with the OpenAI API to generate responses.
+
+```
+
+```
